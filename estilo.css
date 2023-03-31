@@ -1,0 +1,200 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+   background-color: #EBE8DC;
+}
+
+img{
+    height: 100vh;
+    position: absolute;
+    left: 70vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 3vh;
+    margin-top: 5vh;
+    color: #24242D;
+}
+
+div{
+    height: 10vh;
+    display: flex;
+}
+
+button{
+    border: none;
+    background: none;
+    color: #24242D;
+    width: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+i{
+    font-size: 30px;
+}
+
+.blanco{
+    color: #D8D6D0;
+}
+
+.gris{
+    padding: 1vh;
+    font-size: 20px;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    color: #24242D;
+    background-color: #D8D6D0;
+    width: 40vh;
+    left: 65vh;
+    top: 20vh;
+    z-index: -1;
+}
+
+.gris p{
+    margin-left: 2vh;
+}
+
+.negro{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #24242D;
+    color: #E6E6E6;
+    width: 90vh;
+    height: 15vh;
+    top: 40vh;
+    z-index: -1;
+    padding-left: 10vh;
+    padding-right: 5vh;
+}
+
+
+
+.superposicion{
+    font-size: 7vh;
+    position: absolute;
+    color: #E6E6E6;
+    background-color: #D8D6D0;
+    width: 101vh;
+    height: 15vh;
+    top: 40vh;
+    left: 108vh;
+    z-index: -2;
+}
+
+
+.superposicion2{
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #24242D;
+    width: 101vh;
+    height: 15vh;
+    top: 40vh;
+    left: 108vh;
+    z-index: -1;
+}
+
+
+.negro2{
+    padding: 1vh;
+    font-size: 20px;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    background-color: #24242D;
+    color: #E6E6E6;
+    width: 35vh;
+    left: 115vh;
+    top: 65vh;
+    z-index: -1;
+}
+
+.negro2 p{
+    margin-right: 2vh;
+}
+
+
+.footer1{
+    display: flex;
+    font-size: 50px;
+    position: absolute;
+    color: #24242D;
+    top: 80vh;
+    left: 35vh;
+    z-index: 1;
+}
+
+.footer2{
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    color: #24242D;
+    top: 85vh;
+    left: 35vh;
+    z-index: 1;
+    margin-top: 3vh;
+}
+
+.footer3{
+    display: flex;
+    font-size: 50px;
+    position: absolute;
+    color: #E6E6E6;
+    top: 80vh;
+    left: 92vh;
+    z-index: 1;
+}
+
+.footer4{
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    color: #E6E6E6;
+    top: 85vh;
+    left: 92vh;
+    z-index: 1;
+    margin-top: 3vh;
+}
+
+.footer5{
+    display: flex;
+    position: absolute;
+    color:  #24242D;
+    top: 80vh;
+    left: 150vh;
+    z-index: 1;
+}
+
+.infinito{
+    font-size: 70px;
+}
+
+.footer6{
+    display: flex;
+    width: auto;
+    font-size: 20px;
+    position: absolute;
+    color: #24242D;
+    top: 85vh;
+    left: 150vh;
+    z-index: 1;
+    margin-top: 4vh;
+}
